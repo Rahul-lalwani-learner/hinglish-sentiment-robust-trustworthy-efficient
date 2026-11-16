@@ -1,0 +1,33 @@
+# Python / Jupyter
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Dataset: downloaded from Zenodo by notebook 01 (not redistributed here)
+data/raw/
+data/processed/
+
+# Trained models, checkpoints and cached scores (several GB; regenerate with the notebooks or scripts/)
+runs/
+runs_smoke/
+runs_robust/
+runs_efficient/
+models_hf/
+*.safetensors
+*.bin
+*.pt
+*.npz
+
+# Logs and bundles
+*.log
+*.zip
+
+# Slide-building helper that depends on a local, machine-specific toolchain
+slides/

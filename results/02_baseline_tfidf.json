@@ -1,0 +1,10 @@
+{
+  "model": "TF-IDF (word+char) + LR",
+  "test_weighted_f1": 0.6872248024596962,
+  "test_macro_f1": 0.6903235365548803,
+  "test_accuracy": 0.6853333333333333,
+  "best_C": 0.5,
+  "temperature": 0.9322411782033655,
+  "test_ece_before": 0.07315390772710458,
+  "test_ece_after": 0.06051976122076449
+}
